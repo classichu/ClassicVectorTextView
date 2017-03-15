@@ -42,17 +42,6 @@ public class ClassicVectorTextView extends AppCompatTextView {
         }
     }
 
-    private void setBgColorFilterLikeImage(int color) {
-        Drawable drawable=this.getBackground();
-        Drawable drawableNew;
-        if (drawable!=null){
-            //  DrawableCompat.setTint(drawable,color);
-            drawableNew= drawable.mutate();
-            drawableNew.setColorFilter(color, PorterDuff.Mode.SRC_ATOP);
-        }
-    }
-
-
     public void setColorFilterLikeImage(int color) {
         Drawable drawableLeft=this.getCompoundDrawables()[0];
         Drawable drawableTop=this.getCompoundDrawables()[1];
@@ -83,7 +72,6 @@ public class ClassicVectorTextView extends AppCompatTextView {
         }
         this.setCompoundDrawables(drawableLeftNew,drawableTopNew,drawableRightNew,drawableBottomNew);
         //
-        setBgColorFilterLikeImage(color);
     }
 
     /**

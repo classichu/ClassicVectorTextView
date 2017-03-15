@@ -21,7 +21,7 @@ or
 
 
 但是TextView想设置drawableRight类型就不行了。。。
-所以就有了这个小玩意，也支持android:background的变色
+所以就有了这个小玩意
 
      <com.classichu.vectortextview.ClassicVectorTextView
         android:id="@+id/id_cvtv"
