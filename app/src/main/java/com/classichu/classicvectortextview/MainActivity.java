@@ -9,6 +9,8 @@ import com.classichu.vectortextview.ClassicVectorTextView;
 
 public class MainActivity extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         ImageView imageView = (ImageView) findViewById(R.id.id_iv);
-        imageView.setColorFilter(ContextCompat.getColor(this,R.color.colorPrimary));
+        imageView.setColorFilter(ContextCompat.getColor(this,R.color.colorAccent));
 
         ClassicVectorTextView classicVectorTextView= (ClassicVectorTextView) findViewById(R.id.id_cvtv);
-        classicVectorTextView.setColorFilterLikeImage(ContextCompat.getColor(this,R.color.colorPrimary));
+        classicVectorTextView.setColorFilterLikeImage(ContextCompat.getColor(this,R.color.colorAccent));
     }
 }
