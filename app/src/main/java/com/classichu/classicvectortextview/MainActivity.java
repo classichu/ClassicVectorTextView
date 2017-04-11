@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
         imageView.setColorFilter(ContextCompat.getColor(this,R.color.colorAccent));
 
         ClassicVectorTextView classicVectorTextView= (ClassicVectorTextView) findViewById(R.id.id_cvtv);
-        classicVectorTextView.setColorFilterLikeImage(ContextCompat.getColor(this,R.color.colorAccent));
+        classicVectorTextView.setClassicColorFilter(ContextCompat.getColor(this,R.color.colorAccent));
     }
 }

@@ -1,4 +1,4 @@
-#ClassicVectorTextView 
+# ClassicVectorTextView 
 
 支持像ImageView那样配合Vector设置tint的TextView
 
@@ -35,7 +35,7 @@ or
 or
 
        ClassicVectorTextView classicVectorTextView= (ClassicVectorTextView) 	findViewById(R.id.id_cvtv);
-       	 classicVectorTextView.setColorFilterLikeImage(ContextCompat.getColor(this,R.color.colorPrimary));
+       	 classicVectorTextView.setClassicColorFilter(ContextCompat.getColor(this,R.color.colorPrimary));
 
 
 
